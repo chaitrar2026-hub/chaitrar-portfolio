@@ -17,12 +17,12 @@ export const images = {
   website: { file: "expertise-website.jpg", remote: F("ENSJj8ZT4TbTwJPFPfTfg1t5j1s.jpg", "?scale-down-to=1024") },
   figma: { file: "expertise-figma.jpg", remote: F("qmMYJzj3LjSQ4EnJpMYdPnUQA.jpg", "?width=1600") },
   banner: { file: "contact-banner.png", remote: F("xBAUPKsCMkKmMr9f7RGwFAO6qwg.png", "?scale-down-to=2048") },
-  tiffin: { file: "tiffin-deal.png", remote: B("faea69255625293.Y3JvcCwxMzk3LDEwOTMsMjQsMA.png") },
-  smejunction: { file: "sme-junction.png", remote: B("af9405234650997.Y3JvcCwyNDY3LDE5MzAsNzY5LDA.png") },
-  smepulse: { file: "sme-pulse.png", remote: B("227ff4250948751.Y3JvcCwxNDAwLDEwOTUsMCw2MTM.png") },
-  interiorwalaa: { file: "interiorwalaa.jpg", remote: B("e145c0233130483.68b02c2ad8637.jpg") },
-  saha: { file: "saha-jewellers.png", remote: B("3473b2250999939.Y3JvcCwxMTUyLDkwMSwwLDg.png") },
-  kenshi: { file: "kenshi-labs.png", remote: B("ff7f66253003347.Y3JvcCwxMTQ1LDg5NSwxOSww.png") },
+  tiffin: { src: "/images/tiffindeal.png", file: "tiffin-deal.png", remote: B("faea69255625293.Y3JvcCwxMzk3LDEwOTMsMjQsMA.png") },
+  smejunction: { src: "/images/SMEJunction.png", file: "sme-junction.png", remote: B("af9405234650997.Y3JvcCwyNDY3LDE5MzAsNzY5LDA.png") },
+  smepulse: { src: "/images/SMEPulse.png", file: "sme-pulse.png", remote: B("227ff4250948751.Y3JvcCwxNDAwLDEwOTUsMCw2MTM.png") },
+  interiorwalaa: { src: "/images/Interiorwalaa.png", file: "interiorwalaa.jpg", remote: B("e145c0233130483.68b02c2ad8637.jpg") },
+  saha: { src: "/images/SahaJewellers.png", file: "saha-jewellers.png", remote: B("3473b2250999939.Y3JvcCwxMTUyLDkwMSwwLDg.png") },
+  kenshi: { src: "/images/KenshiLabs.png", file: "kenshi-labs.png", remote: B("ff7f66253003347.Y3JvcCwxMTQ1LDg5NSwxOSww.png") },
 };
 
 /* Behance case studies (individual project pages). Order = order on the site. `desc` is only read by screen readers (tiles show images only, like the original). */
