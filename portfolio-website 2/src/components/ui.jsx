@@ -3,7 +3,7 @@ import { images, site } from "../data/site";
 
 export function Img({ k, alt = "", className = "", ...rest }) {
   const i = images[k];
-  const [src, setSrc] = useState(`/assets/images/${i.file}`);
+  const [src, setSrc] = useState(i.src || `/assets/images/${i.file}`);
   return <img className={className} src={src} alt={alt} loading="lazy" decoding="async"
     onError={() => src !== i.remote && setSrc(i.remote)} {...rest} />;
 }
